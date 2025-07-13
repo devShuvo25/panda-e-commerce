@@ -28,17 +28,35 @@ header{
 }
 /* nav bar styles */
 nav{
-  height:50px;
+  height:40px;
   margin: 20px 50px;
 }
 nav img{
-  height: 40px;
+  height: 30px;
   width:159px;
 
 }
 .search-tool{
-  width:400px;
-  background-color: rebeccapurple;
+  width:450px;
+   height:100%;
+  background-color:#F1F1F1;
+  text-align: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50px;
+  position: relative;
+}
+.search-tool input{
+  width: 95%;
+  border:none;
+  background-color: #F1F1F1;
+  padding:7px 20px;
+}
+.fa-solid{
+  position: absolute;
+  right: 20px;
+  top:13px;
+  color: #707070;
 }
 nav ul{
   gap: 50px;
