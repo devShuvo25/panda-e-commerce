@@ -14,10 +14,25 @@
   font-weight: 400;
   font-style: normal;
 }
+
+.inter-font-style{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 .flex-space-between{
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.btn-style{
+  background: linear-gradient(to bottom, rgb(255,88,155), rgb(255,19,111));
+  padding:12px 28px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 20px;
+
+  color: #ffff;
 }
 
 
@@ -68,4 +83,75 @@ nav ul li{
 nav ul li a{
   text-decoration: none;
   color: var(--mini-text-color);
+}
+/* banner section */
+.banner{
+  width: 100%;
+  height:455px;
+  background-color:var(--primary-color);
+  border: 10px;
+  gap: 142px;
+  padding:65px;
+  border-radius: 10px;
+}
+.banner-image{
+  width: 402px;
+  height: 378px;
+}
+.banner-image img{
+  width: 402px;
+  height: 378px;
+}
+.banner-title{
+  font-size: 50px;
+  font-weight: bold;
+}
+/* banner subtile */
+.banner-subtitle{
+  color: var(--mini-text-color);
+  margin: 10px 0 20px 0;
+}
+.banner-span{
+  font-size: 40px;
+  color:#FF136F;
+  font-weight: bold;
+
+}
+/* catagories styles */
+.catagories{
+
+  margin: 30px 50px;
+}
+.catagories-title{
+  font-size: 36px;
+  font-weight: 600px;
+  margin-bottom: 20px
+}
+.card-container{
+  gap: 30px;
+}
+.catagories-card{
+  width:360px;
+  height:120px;
+  padding: 0 48px;
+  border: none;
+  border-radius:10px;
+}
+.catagories-card-title{
+  font-size: 36px;
+  font-weight:500px;
+  color: #ffff;
+}
+.catagories-card img{
+  width: 70px;
+  height: 90px;
+}
+.catagories-card-shoes{
+  background: linear-gradient(to bottom, rgb(255,88,155), rgb(255,19,111));
+}
+.catagories-card-watch{
+  background: linear-gradient(to bottom right , rgb(255,156,53),rgb(255,208,25));
+}
+.catagories-card-bag{
+  background: linear-gradient(to bottom right , rgb(66,137,255),rgb(63,7,248));
 }
