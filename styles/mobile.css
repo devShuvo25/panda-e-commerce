@@ -275,3 +275,72 @@ footer p{
   color: #ffff;
    background: linear-gradient(to bottom, rgb(255,88,155), rgb(255,19,111));
 }
+
+/* responsive design starts from here */
+
+.hide{
+  display:none;
+}
+
+@media screen and (max-width : 576px) {
+  .banner{
+    flex-direction:column-reverse;
+    gap:20px;
+    padding:20px;
+    height: auto;
+  }
+    .banner img{
+      width: 100%;
+      height:auto;
+    }
+    .banner-content{
+      height:100%;
+      width: 100%;
+    }
+    .banner-title{
+      font-size:35px;
+    }
+        .banner-subtitle{
+          font-size: 16px;
+          margin:10px auto;
+        }
+  .banner-image{
+    height:100%;
+    width: 100%;
+  }
+  .banner-image img{
+    width:100%;
+    height: 100%;
+  }
+  .card-container{
+    flex-direction: column;
+  }
+  .poppins-regular{
+    text-align: center;
+  }
+  .products-container{
+    flex-direction: column;
+  }
+  .products-first{
+    margin-bottom: 50px;
+  }
+  footer{
+    margin: 0;
+    padding: 0;
+    height:300px;
+  }
+  footer h2{
+    font-size: 30px;
+  }
+  .footer-input{
+    width:100%;
+    height:50px;
+    margin: 0;
+    padding:0;
+  }
+    .footer-input button{
+      font-size: 16px;
+      height:100%;
+    }
+  
+}
