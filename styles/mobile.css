@@ -97,6 +97,40 @@ nav ul li a{
   font-size: 18px;
   font-weight: 500;
 }
+/* dropdown for mini devices */
+.nav-bar{
+  position: relative;
+}
+header i{
+  font-size: 30px;
+  /* height:100%; */
+  top: 0px;
+  margin-bottom: 5px;
+}
+header i:hover{
+  cursor: pointer;
+}
+.dropdown-menu{
+  display: none;
+  position: absolute;
+  right: 17px;
+  text-align: right;
+  top: 60px;
+  background-color: #FF136F;
+  border-radius: 10px;
+  padding: 10px 20px;
+  transition:0.4s ease-in;
+}
+.dm-js{
+  display: block;
+}
+.dropdown-menu li{
+  padding:10px 0;
+}
+.dropdown-menu li a{
+  color: #F1F1F1;
+
+}
 /* banner section */
 .banner{
   width: 100%;
@@ -283,6 +317,10 @@ footer p{
 }
 
 @media screen and (max-width : 576px) {
+  .nav-bar {
+    align-items: center;
+    margin:20px;
+  }
   .banner{
     flex-direction:column-reverse;
     gap:20px;

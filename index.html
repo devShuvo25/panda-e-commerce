@@ -18,14 +18,26 @@
 </head>
 <body>
     <!-- header section -->
-     <header class="">
-        <nav class="flex-space-between hide">
+     <header>
+        <nav class=" nav-bar flex-space-between">
             <img src="assets/images/logo.png" alt="">
-            <div class="search-tool flex-space-between">
+            <!-- dropdown for mini devices -->
+             <ul class="dropdown-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+                
+             </ul>
+            <i class="fa-solid fa-bars" onclick="
+            visibleDropdown();
+            hideDropdown();
+            " style="color: #FFD43B;"></i>
+            <div class="search-tool flex-space-between hide">
                 <input type="text" placeholder="Search">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>
-            <ul class="flex-space-between">
+            <ul class="flex-space-between hide">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Product</a></li>
                 <li><a href="#">About us</a></li>
@@ -151,4 +163,5 @@
        </footer>
 </body>
 <script src="https://kit.fontawesome.com/256c63fa14.js" crossorigin="anonymous"></script>
+<script src="main.js"></script>
 </html>
